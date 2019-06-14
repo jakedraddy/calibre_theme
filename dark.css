@@ -40,8 +40,29 @@ table {
     font-weight: 440 !important;
     text-rendering: optimizeLegibility;
     color: rgb(255, 255, 255) !important;
-    text-indent: 0px !important;
     line-height: 1.5em !important;
+}
+
+p span,
+p div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+p,
+.tx,
+h1,
+h2,
+h3,
+h4,
+.tx1,
+blockquote,
+pre,
+blockquote blockquote,
+div,
+ul,
+body>span,
+table {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
@@ -76,6 +97,10 @@ blockquote blockquote {
 h1,
 .tx1 {
     font-weight: bold;
+}
+
+small {
+    font-size: 0.8em !important;
 }
 
 ::selection {
