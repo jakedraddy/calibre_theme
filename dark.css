@@ -1,0 +1,80 @@
+html {
+    background-color: rgb(49, 49, 49) !important;
+}
+
+body {
+    /* background-color: rgb(255, 255, 255) !important; */
+    background-color: rgb(30, 30, 30) !important;
+    text-indent: 0px !important;
+    font-size: 1.0em !important;
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    outline: solid rgb(44, 44, 44);
+}
+
+
+/* Css to hide all images */
+
+
+/* img, svg { display: none !important;} */
+
+p,
+.tx,
+h1,
+h2,
+h3,
+h4,
+.tx1,
+blockquote,
+pre,
+blockquote blockquote,
+div,
+ul,
+span,
+table {
+    font-family: "Open Sans", sans-serif !important;
+    /* background-color: rgb(255, 255, 255) !important; */
+    /* padding-left: 20px;
+padding-right: 20px;*/
+    margin-top: 1em !important;
+    text-indent: 0px !important;
+    font-weight: 440 !important;
+    text-rendering: optimizeLegibility;
+    /* -webkit-font-smoothing: antialiased; */
+    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    text-indent: 0px !important;
+    line-height: 1.5em !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+pre p {
+    line-height: 1.5em !important;
+    font-size: 15px !important;
+}
+
+blockquote,
+blockquote blockquote {
+    max-width: 600px !important;
+    margin-bottom: 0.9em !important;
+    margin-top: 0.9em !important;
+}
+
+h1,
+.tx1 {
+    font-weight: bold;
+}
+
+::selection {
+    background-color: rgba(150, 54, 62, 0.432)
+}
+
+body>:last-child {
+    padding-bottom: 40em !important;
+}
+
+body>:first-child {
+    padding-top: 25em !important;
+}
